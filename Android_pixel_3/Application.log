@@ -1,0 +1,22 @@
+[Android_pixel_3 INFO ] 2021-01-01 21:15:40.838 ServerManager:20 - starting appium server
+[Android_pixel_3 INFO ] 2021-01-01 21:15:47.881 ServerManager:29 - Appium server started
+[Android_pixel_3 INFO ] 2021-01-01 21:15:47.978 DriverManager:28 - initializing Appium driver
+[Android_pixel_3 INFO ] 2021-01-01 21:15:48.051 PropertyManager:17 - loading config properties
+[Android_pixel_3 INFO ] 2021-01-01 21:15:48.057 CapabilitiesManager:18 - getting capabilities
+[Android_pixel_3 INFO ] 2021-01-01 21:15:48.065 CapabilitiesManager:34 - appUrl isC:\Users\ekrem\Desktop\appium-cucumberbdd-testng-master\src\test\resources\apps\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[Android_pixel_3 INFO ] 2021-01-01 21:16:17.966 DriverManager:40 - Driver is initialized
+[Android_pixel_3 INFO ] 2021-01-01 21:16:22.743 BasePage:71 - login with invalidUsername
+[Android_pixel_3 INFO ] 2021-01-01 21:16:24.727 BasePage:71 - password is secret_sauce
+[Android_pixel_3 INFO ] 2021-01-01 21:16:25.494 BasePage:54 - press login button
+[Android_pixel_3 INFO ] 2021-01-01 21:16:26.684 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_pixel_3 INFO ] 2021-01-01 21:16:28.400 VideoManager:35 - video path: Android_pixel_3\Videos\Login with invalid user name.mp4
+[Android_pixel_3 INFO ] 2021-01-01 21:16:30.311 BasePage:71 - login with standard_user
+[Android_pixel_3 INFO ] 2021-01-01 21:16:31.709 BasePage:71 - password is invalidPassword
+[Android_pixel_3 INFO ] 2021-01-01 21:16:32.905 BasePage:54 - press login button
+[Android_pixel_3 INFO ] 2021-01-01 21:16:33.653 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_pixel_3 INFO ] 2021-01-01 21:16:35.500 VideoManager:35 - video path: Android_pixel_3\Videos\Login with invalid password.mp4
+[Android_pixel_3 INFO ] 2021-01-01 21:16:37.203 BasePage:71 - login with standard_user
+[Android_pixel_3 INFO ] 2021-01-01 21:16:38.628 BasePage:71 - password is secret_sauce
+[Android_pixel_3 INFO ] 2021-01-01 21:16:39.878 BasePage:54 - press login button
+[Android_pixel_3 INFO ] 2021-01-01 21:16:42.775 BasePage:97 - product page title is - PRODUCTS
+[Android_pixel_3 INFO ] 2021-01-01 21:16:44.570 VideoManager:35 - video path: Android_pixel_3\Videos\Login with valid user name and password.mp4

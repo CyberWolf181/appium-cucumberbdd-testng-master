@@ -1,0 +1,70 @@
+2021-01-01 19:51:31:217 [Appium] Welcome to Appium v1.19.1
+2021-01-01 19:51:31:219 [Appium] Non-default server args:
+2021-01-01 19:51:31:220 [Appium]   port: 22736
+2021-01-01 19:51:31:220 [Appium]   sessionOverride: true
+2021-01-01 19:51:31:221 [Appium]   logFile: C:\Users\ekrem\Desktop\appium-cucumberbdd-testng-master\Android_OnePlus\Server.log
+2021-01-01 19:51:31:258 [Appium] Appium REST http interface listener started on 0.0.0.0:22736
+2021-01-01 19:51:31:832 [HTTP] --> GET /wd/hub/status
+2021-01-01 19:51:31:833 [HTTP] {}
+2021-01-01 19:51:31:838 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-01-01 19:51:31:842 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.19.1"}}
+2021-01-01 19:51:31:858 [HTTP] <-- GET /wd/hub/status 200 20 ms - 68
+2021-01-01 19:51:31:859 [HTTP] 
+2021-01-01 19:51:31:876 [HTTP] --> GET /wd/hub/status
+2021-01-01 19:51:31:877 [HTTP] {}
+2021-01-01 19:51:31:878 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-01-01 19:51:31:879 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.19.1"}}
+2021-01-01 19:51:31:882 [HTTP] <-- GET /wd/hub/status 200 4 ms - 68
+2021-01-01 19:51:31:883 [HTTP] 
+2021-01-01 19:51:32:922 [HTTP] --> POST /wd/hub/session
+2021-01-01 19:51:32:923 [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\ekrem\\Desktop\\appium-cucumberbdd-testng-master\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"<enter_device_udid_here>>","deviceName":"OnePlus","systemPort":"10000"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\ekrem\\Desktop\\appium-cucumberbdd-testng-master\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"OnePlus","platformName":"android","appium:systemPort":"10000","appium:udid":"<enter_device_udid_here>>"}]}}
+2021-01-01 19:51:32:925 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\ekrem\\Desktop\\appium-cucumberbdd-testng-master\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"<enter_device_udid_here>>","deviceName":"OnePlus","systemPort":"10000"},null,{"firstMatch":[{"appium:app":"C:\\Users\\ekrem\\Desktop\\appium-cucumberbdd-testng-master\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"OnePlus","platformName":"android","appium:systemPort":"10000","appium:udid":"<enter_device_udid_here>>"}]}]
+2021-01-01 19:51:32:926 [BaseDriver] Event 'newSessionRequested' logged at 1609530692926 (20:51:32 GMT+0100 (Central European Standard Time))
+2021-01-01 19:51:32:934 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2021-01-01 19:51:32:934 [BaseDriver]   chromeDriverPort
+2021-01-01 19:51:34:024 [Appium] Appium v1.19.1 creating new AndroidUiautomator2Driver (v1.59.0) session
+2021-01-01 19:51:34:025 [Appium] There are no active sessions for cleanup
+2021-01-01 19:51:34:031 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-01-01 19:51:34:032 [BaseDriver] Creating session with W3C capabilities: {
+2021-01-01 19:51:34:033 [BaseDriver]   "alwaysMatch": {
+2021-01-01 19:51:34:033 [BaseDriver]     "appium:chromeDriverPort": "11000",
+2021-01-01 19:51:34:033 [BaseDriver]     "platformName": "android",
+2021-01-01 19:51:34:034 [BaseDriver]     "appium:app": "C:\\Users\\ekrem\\Desktop\\appium-cucumberbdd-testng-master\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk",
+2021-01-01 19:51:34:034 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2021-01-01 19:51:34:035 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2021-01-01 19:51:34:035 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2021-01-01 19:51:34:036 [BaseDriver]     "appium:deviceName": "OnePlus",
+2021-01-01 19:51:34:036 [BaseDriver]     "appium:systemPort": "10000",
+2021-01-01 19:51:34:036 [BaseDriver]     "appium:udid": "<enter_device_udid_here>>"
+2021-01-01 19:51:34:037 [BaseDriver]   },
+2021-01-01 19:51:34:038 [BaseDriver]   "firstMatch": [
+2021-01-01 19:51:34:038 [BaseDriver]     {}
+2021-01-01 19:51:34:039 [BaseDriver]   ]
+2021-01-01 19:51:34:039 [BaseDriver] }
+2021-01-01 19:51:34:045 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-01-01 19:51:34:046 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-01-01 19:51:34:055 [BaseDriver] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2021-01-01 19:51:34:056 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11000') to integer (11000). This may cause unexpected behavior
+2021-01-01 19:51:34:063 [BaseDriver] Session created with session id: 6565f77b-e440-4ebc-b7e6-5975924f9af5
+2021-01-01 19:51:34:070 [BaseDriver] Using local app 'C:\Users\ekrem\Desktop\appium-cucumberbdd-testng-master\src\test\resources\apps\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk'
+2021-01-01 19:51:34:071 [UiAutomator2] Checking whether app is actually present
+2021-01-01 19:51:34:113 [ADB] Found 1 'build-tools' folders under 'C:\Users\ekrem\AppData\Local\Android\Sdk' (newest first):
+2021-01-01 19:51:34:114 [ADB]     C:/Users/ekrem/AppData/Local/Android/Sdk/build-tools/30.0.1
+2021-01-01 19:51:34:116 [ADB] Using 'adb.exe' from 'C:\Users\ekrem\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2021-01-01 19:51:34:119 [ADB] Running 'C:\Users\ekrem\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2021-01-01 19:51:34:200 [AndroidDriver] Retrieving device list
+2021-01-01 19:51:34:201 [ADB] Trying to find a connected android device
+2021-01-01 19:51:34:202 [ADB] Getting connected devices
+2021-01-01 19:51:34:258 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2021-01-01 19:51:34:259 [AndroidDriver] Device <enter_device_udid_here>> was not in the list of connected devices
+2021-01-01 19:51:34:261 [UiAutomator2] Deleting UiAutomator2 session
+2021-01-01 19:51:34:263 [BaseDriver] Event 'newSessionStarted' logged at 1609530694263 (20:51:34 GMT+0100 (Central European Standard Time))
+2021-01-01 19:51:34:407 [W3C] Encountered internal error running command: Error: Device <enter_device_udid_here>> was not in the list of connected devices
+2021-01-01 19:51:34:407 [W3C]     at Object.errorAndThrow (C:\Users\ekrem\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:94:35)
+2021-01-01 19:51:34:407 [W3C]     at Object.getDeviceInfoFromCaps (C:\Users\ekrem\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:210:16)
+2021-01-01 19:51:34:408 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\ekrem\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:327:26)
+2021-01-01 19:51:34:408 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\ekrem\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:224:7)
+2021-01-01 19:51:34:409 [W3C]     at AppiumDriver.createSession (C:\Users\ekrem\AppData\Roaming\npm\node_modules\appium\lib\appium.js:366:35)
+2021-01-01 19:51:34:426 [W3C] Destroying socket connection
+2021-01-01 19:51:34:428 [HTTP] <-- POST /wd/hub/session 500 1504 ms - 707
+2021-01-01 19:51:34:428 [HTTP] 
